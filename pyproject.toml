@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jarvis"
+version = "0.1.0"
+description = ""
+authors = ["greenfrog <greenfrog82@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+pydantic = {version = "^1.10.4", extras = ["email", "dotenv"]}
+typer = "^0.7.0"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
